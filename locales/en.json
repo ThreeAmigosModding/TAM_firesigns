@@ -1,0 +1,21 @@
+{
+    "targetChangeDangerLabel": "Change Danger Level",
+    "noModelsFound": "No Nearby Models Found!",
+    "deletedSign": "Deleted Sign!",
+    "delSignCommandHelp": "Delete the closest fire sign",
+    "failedToDeleteSign": "Failed to delete sign!",
+    "changeSignCommandHelp": "Change the closest fire sign danger level. low, moderate, high, veryhigh, extreme",
+    "targetLevel": "Fire sign danger level",
+    "level": "Level",
+    "changedDangerLevel": "Changed danger level to %s",
+    "failedToChangeDangerLevel": "Failed to change danger level!",
+    "invalidArgumentsProvided": "Invalid Arguments Provided",
+    "copiedPos": "Copied heading & coords to clipboard!",
+    "copySignPosCommandHelp": "Copy the nearest fire signs coords and heading to your clipboard.",
+    "copyPedPosCommandHelp": "Copy your position and heading to your clipboard.",
+    "delAllSignsCommandHelp": "Delete all fire signs.",
+    "deletedAllSigns": "Deleted all signs",
+    "inputTitle": "Set Danger Level",
+    "inputLabel": "Danger Level",
+    "inputDescription": "Set the sign's danger level"
+}

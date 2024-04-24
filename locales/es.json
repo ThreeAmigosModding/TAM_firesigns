@@ -1,0 +1,21 @@
+{
+    "targetChangeDangerLabel": "Cambiar nivel de peligro",
+    "noModelsFound": "No Nearby Models Found!",
+    "deletedSign": "¡Signo eliminado!",
+    "delSignCommandHelp": "Eliminar la señal de fuego más cercana",
+    "failedToDeleteSign": "¡No se pudo eliminar el letrero!",
+    "changeSignCommandHelp": "Cambie el nivel de peligro de la señal de fuego más cercana. low, moderate, high, veryhigh, extreme",
+    "targetLevel": "Nivel de peligro de señal de fuego",
+    "level": "Nivel",
+    "changedDangerLevel": "Se cambió el nivel de peligro a %s",
+    "failedToChangeDangerLevel": "¡No se pudo cambiar el nivel de peligro!",
+    "invalidArgumentsProvided": "¡Se proporcionaron argumentos no válidos!",
+    "copiedPos": "¡Copiado rumbo y coordenadas al portapapeles!",
+    "copySignPosCommandHelp": "Copie las coordenadas de las señales de incendio más cercanas y diríjase a su portapapeles.",
+    "copyPedPosCommandHelp": "Copie su posición y diríjase a su portapapeles.",
+    "delAllSignsCommandHelp": "Elimina todas las señales de fuego.",
+    "deletedAllSigns": "¡Se eliminaron todos los letreros!",
+    "inputTitle": "Establecer nivel de peligro",
+    "inputLabel": "Nivel de peligro",
+    "inputDescription": "Establecer el nivel de peligro de las señales."
+}

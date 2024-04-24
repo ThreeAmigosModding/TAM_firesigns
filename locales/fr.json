@@ -1,0 +1,21 @@
+{
+    "targetChangeDangerLabel": "Changer le niveau de danger",
+    "noModelsFound": "Aucun modèle à proximité trouvé !",
+    "deletedSign": "Signe supprimé !",
+    "delSignCommandHelp": "Supprimez le signe de feu le plus proche.",
+    "failedToDeleteSign": "Échec de la suppression du panneau !",
+    "changeSignCommandHelp": "Modifiez le niveau de danger du signe d'incendie le plus proche. low, moderate, high, veryhigh, extreme",
+    "targetLevel": "Niveau de danger du signe d'incendie",
+    "level": "Niveau",
+    "changedDangerLevel": "Changement du niveau de danger à %s",
+    "failedToChangeDangerLevel": "Échec de la modification du niveau de danger !",
+    "invalidArgumentsProvided": "Arguments invalides fournis !",
+    "copiedPos": "Titre et coordonnées copiés dans le presse-papiers !",
+    "copySignPosCommandHelp": "Copiez les coordonnées du signe de feu le plus proche et dirigez-vous vers votre presse-papiers.",
+    "copyPedPosCommandHelp": "Copiez vos coordonnées et dirigez-vous vers votre presse-papiers.",
+    "delAllSignsCommandHelp": "Supprimez tous les signes d'incendie.",
+    "deletedAllSigns": "Supprimé tous les panneaux !",
+    "inputTitle": "Définir le niveau de danger",
+    "inputLabel": "Niveau de danger",
+    "inputDescription": "Définir le niveau de danger des panneaux"
+}
