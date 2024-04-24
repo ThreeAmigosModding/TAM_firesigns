@@ -17,5 +17,13 @@
     "deletedAllSigns": "Supprimé tous les panneaux !",
     "inputTitle": "Définir le niveau de danger",
     "inputLabel": "Niveau de danger",
-    "inputDescription": "Définir le niveau de danger des panneaux"
+    "inputDescription": "Définir le niveau de danger des panneaux",
+    "addSignCommandHelp": "Crea una señal de fuego en tu posición y cópiala en el portapapeles. low, moderate, high, veryhigh, extreme",
+    "createdNewSign": "¡Creó un nuevo letrero!",
+    "failedToCreateNewSign": "¡No se pudo crear el letrero!",
+    "low": "Faible",
+    "moderate": "Modérer",
+    "high": "Haut",
+    "veryhigh": "Très haut",
+    "extreme": "Extrême"
 }

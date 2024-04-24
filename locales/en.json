@@ -5,6 +5,9 @@
     "delSignCommandHelp": "Delete the closest fire sign",
     "failedToDeleteSign": "Failed to delete sign!",
     "changeSignCommandHelp": "Change the closest fire sign danger level. low, moderate, high, veryhigh, extreme",
+    "addSignCommandHelp": "Create a fire sign on your position and copy it to the clipboard. low, moderate, high, veryhigh, extreme",
+    "createdNewSign": "Created a new sign!",
+    "failedToCreateNewSign": "Failed to create sign!",
     "targetLevel": "Fire sign danger level",
     "level": "Level",
     "changedDangerLevel": "Changed danger level to %s",
@@ -17,5 +20,11 @@
     "deletedAllSigns": "Deleted all signs",
     "inputTitle": "Set Danger Level",
     "inputLabel": "Danger Level",
-    "inputDescription": "Set the sign's danger level"
+    "inputDescription": "Set the sign's danger level",
+    "noPermission": "No Permission!",
+    "low": "Low",
+    "moderate": "Moderate",
+    "high": "High",
+    "veryhigh": "Very High",
+    "extreme": "Extreme"
 }

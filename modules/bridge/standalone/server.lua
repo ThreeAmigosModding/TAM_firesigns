@@ -5,23 +5,43 @@
 
 local bridge = {}
 
+---Get a players groups
 ---@param groups string|table
 ---@return boolean|table
 function bridge.getGroups(groups)
     if not groups then return false end
 
     if type(groups) == "table" then
-        local restricted = {}
+        restricted = {}
         for _, group in pairs(groups) do
-            table.insert(restricted, ("group.%s"):format(group))
+            table.insert(restricted, group)
         end
-    
+
         return restricted
     end
 
     return groups
 end
 
+---Check if a player has specified ace perm
+---@param source integer
+---@param groups string|boolean|string[]
+---@return boolean
+function bridge.isAllowed(source, groups)
+    if not source or not groups then return end
+
+    if type(groups) == "table" then
+        for _, group in pairs(groups) do
+            if IsPlayerAceAllowed(source, group) then
+                return true
+            end
+        end
+    end
+
+    return IsPlayerAceAllowed(source, groups)
+end
+
+---Notify a player
 ---@param source integer
 ---@param description string
 ---@param type string
