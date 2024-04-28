@@ -9,7 +9,7 @@ local bridge = {}
 ---@param groups string|table
 ---@return boolean|table
 function bridge.getGroups(groups)
-    if not groups then return false end
+    if not groups then return true end
 
     if type(groups) == "table" then
         restricted = {}
@@ -28,7 +28,9 @@ end
 ---@param groups string|boolean|string[]
 ---@return boolean
 function bridge.isAllowed(source, groups)
-    if not source or not groups then return end
+    if not source then return end
+    
+    if groups == false then return true end
 
     if type(groups) == "table" then
         for _, group in pairs(groups) do
